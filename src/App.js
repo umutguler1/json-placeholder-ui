@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <Header />
-
       <div className="grid gap-y-8 p-8">
         <Routes>
           <Route path="/" element={<HomePage />} />

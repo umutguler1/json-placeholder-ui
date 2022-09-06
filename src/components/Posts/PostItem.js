@@ -8,7 +8,6 @@ const PostItem = ({ id, userId, title, body }) => {
 
   const [showComments, setShowComments] = useState(false);
   const userOfThePost = usersCtx.users.find((user) => user.id === userId);
-  console.log(userOfThePost);
 
   return (
     <li className="grid gap-y-4 p-2 w-[500px] bg-custom-yellow rounded-lg">

@@ -19,6 +19,10 @@ You may also see any lint errors in the console.
 The whole project is to build a user interface for the widely used API called Json Placeholder (https://jsonplaceholder.typicode.com/).
 The posts, users and the comments sections are used for the project. You can see all the posts, users; and filter them with a keyword. The user of each post is fetched using their IDs with a logic. You can also see all the posts of each user in the users section itself, or clicking the user in the post which will navigate you to the user's page.
 
+## URL
+
+The project is deployed using Netlify. URL: https://jsonplaceholder-ui.netlify.app/
+
 ## Styling
 
 All the styling is done using Tailwind CSS.
